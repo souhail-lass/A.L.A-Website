@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+img {
+    width: 200px;
+    margin: 15px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header img{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+
+}
+
+.buttons a {
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 160px auto;
+}
+
+.text {
+    color: white;
+    width: 600px;
+}
+
+.text h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.text p {
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.text button {
+    margin-left: 15px;
+    background-color: #df1f1f;
+    padding: 20px;
+    color: black;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.video {
+    border: solid red;
+    border-radius: 50px;
+}
+
+.random {
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: larger;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.random span:first-child {
+    margin-right: 100px;
+}
+
+.r2 img {
+    width: 100px;
+    margin: 10px 40px;
+}
+
+.r2 {
+    border: 5px solid red;
+    width: 1440px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Cexamples {
+    max-width: 1440px;
+    height: 450px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.xd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.xd div {
+    width: 175px;
+    height: 175px;
+    border: 5px groove white;
+}
+
+.xd img {
+    margin: 0;          
+    width: 175px;
+    height: 175px;
+}
+.duo p{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+
+}
+
+.duo {
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
